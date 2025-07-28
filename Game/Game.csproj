@@ -11,6 +11,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.csproj" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="lighting.fs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="lighting.vs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
